@@ -13,7 +13,7 @@ Checking module Docstring
     >>> c = __import__("0-add_integer").__doc__
     >>> len(c) > 1
     True
-    
+
 Testing normal arguments
 
     >>> add_integer(2, 6)
@@ -51,7 +51,7 @@ Testing float type args
     >>> add_integer(19.8, 1)
     20
 
-Testing more than two args 
+Testing more than two args
     >>> add_integer(16, 3,1)
     Traceback (most recent call last):
     ...
